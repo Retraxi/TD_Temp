@@ -2045,6 +2045,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2128,7 +2129,6 @@
               ]
             },
             "id": "efd2dc0e-c9af-43f0-b9ae-dfbfcc655594",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -2161,6 +2161,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2244,7 +2245,6 @@
               ]
             },
             "id": "7f6dea8f-29cb-4300-8deb-4a90adf8ae3a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Web App",
@@ -2927,6 +2927,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -3010,7 +3011,6 @@
               ]
             },
             "id": "bb7b4a40-662b-4d59-9468-6f1046321c3e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Node JS Server",
@@ -3046,6 +3046,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -3129,7 +3130,6 @@
               ]
             },
             "id": "c1e3e7d2-66f5-48c3-af9d-6e2698554489",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Password Gen",
@@ -3165,6 +3165,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -3248,7 +3249,6 @@
               ]
             },
             "id": "88418e76-b31f-4664-9569-502342d14364",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Encryption",
@@ -3287,6 +3287,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -3370,7 +3371,6 @@
               ]
             },
             "id": "7845b275-c6e6-40e2-918a-4fde019e9d2f",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
