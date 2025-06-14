@@ -394,8 +394,8 @@
             },
             "vertices": [
               {
-                "x": 690,
-                "y": 310
+                "x": 680,
+                "y": 320
               }
             ]
           },
@@ -648,73 +648,6 @@
                 "y": 220
               }
             ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Web App and DB",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Web App and DB"
-            ],
-            "id": "9a7ac163-3edd-4320-9eaf-b4e90b5f8f8b",
-            "source": {
-              "x": 510,
-              "y": -60
-            },
-            "target": {
-              "x": 960,
-              "y": -40
-            },
-            "vertices": [
-              {
-                "x": 560,
-                "y": 190
-              },
-              {
-                "x": 880,
-                "y": 240
-              },
-              {
-                "x": 960,
-                "y": 30
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Web App and Ethereum",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Web App and Ethereum"
-            ],
-            "id": "22d0b2a7-1fb5-4bbf-bd8d-ae4cb65e9bcd",
-            "source": {
-              "x": 540,
-              "y": 340
-            },
-            "target": {
-              "x": 1010,
-              "y": 340
-            },
-            "vertices": []
           },
           {
             "position": {
