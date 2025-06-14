@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "cc47653f-d50b-45bc-b600-6e1b26253bdf",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Voter",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "c733bd77-8d99-4fe2-938f-95936e6b5c57",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Web Client",
@@ -697,23 +697,24 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Web App and Ethereum",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "Trust Boundary"
+              "Web App and Ethereum"
             ],
-            "id": "e02cddf2-b278-48c7-9684-6999a8fcb98b",
+            "id": "22d0b2a7-1fb5-4bbf-bd8d-ae4cb65e9bcd",
             "source": {
-              "x": 588,
-              "y": 352
+              "x": 540,
+              "y": 340
             },
             "target": {
-              "x": 688,
-              "y": 452
-            }
+              "x": 1010,
+              "y": 340
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -736,6 +737,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -819,7 +821,6 @@
               ]
             },
             "id": "c4d4d089-c21f-4cc4-b4a9-d37d8cfb929f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Node JS Server",
@@ -837,7 +838,7 @@
           {
             "position": {
               "x": 673,
-              "y": 370
+              "y": 410
             },
             "size": {
               "width": 200,
@@ -855,6 +856,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -938,7 +940,6 @@
               ]
             },
             "id": "c7ee701f-e751-484c-a0b2-97ad3b6b02b6",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Ethereum Server",
@@ -978,6 +979,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1061,7 +1063,6 @@
               ]
             },
             "id": "c071f0ed-655e-47db-8fcd-29838e9eaa17",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
