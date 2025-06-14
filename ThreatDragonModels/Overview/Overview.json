@@ -2726,7 +2726,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Voter Data",
+              "name": "Voter/s Data",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -2738,7 +2738,7 @@
               "threats": []
             },
             "labels": [
-              "Voter Data"
+              "Voter/s Data"
             ],
             "id": "31440a48-2a3e-4552-809b-e5f175a303b7",
             "source": {
@@ -2754,17 +2754,7 @@
                 "x": 1010,
                 "y": 180
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -3517,6 +3507,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -3600,7 +3591,6 @@
               ]
             },
             "id": "e25e267e-4cab-488e-ab8e-a8b4e73b2209",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Key Generation",
